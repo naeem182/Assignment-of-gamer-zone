@@ -40,6 +40,9 @@ nav .logo img {
 }
 
 /*shared iteam*/
+section {
+    margin: 5rem 0;
+}
 
 .title {
     color: #3C354F;
@@ -237,6 +240,80 @@ nav .nav-list ul li a {
 
 }
 
+/*online games design*/
+.online-games {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.onlinecol {
+    padding: .5rem;
+    box-shadow: 5px 5px lightblue;
+    height: fit-content;
+    margin: 2px;
+    opacity: 1;
+}
+
+.onlinecol:hover {
+    box-shadow: 8px 10px black;
+    opacity: .9;
+
+}
+
+.onlinecol img {
+    height: 400px;
+
+}
+
+.onlinerow {
+
+    gap: .7rem;
+}
+
+#vedio-dep {
+    height: 60px;
+    text-align: left;
+}
+
+/*play instantly design*/
+.play-instantly {
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.playtext {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 9rem;
+
+
+
+}
+
+.col {
+    width: 50%;
+}
+
+#big-img {
+
+    width: 39rem;
+    height: 40rem;
+    margin-left: 3rem;
+
+
+}
+
+.up-img {
+    position: relative;
+    bottom: 10.5rem;
+    width: 12rem;
+
+}
 
 /*responsive style for phone*/
 @media screen and (max-width:425px) {
