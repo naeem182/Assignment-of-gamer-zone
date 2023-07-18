@@ -205,6 +205,39 @@ nav .nav-list ul li a {
     height: 90%;
 }
 
+/*banner done*/
+
+/*we are gammer design*/
+.gammer {
+    width: 80%;
+    margin: auto;
+}
+
+#we-are-gammer {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: none;
+
+
+}
+
+.gammer,
+.pri-btn {
+    text-align: right;
+}
+
+#gammer-descript {
+
+    text-align: right;
+    width: 50%;
+    margin-bottom: 0;
+    margin-left: 50%;
+    color: #534C64;
+
+}
+
+
 /*responsive style for phone*/
 @media screen and (max-width:425px) {
 
