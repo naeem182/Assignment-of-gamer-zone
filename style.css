@@ -27,7 +27,7 @@ nav {
 
 nav .logo {
     display: flex;
-    margin-left: 15rem;
+    margin-left: 12rem;
     text-align: center;
     align-items: center;
 
@@ -476,6 +476,196 @@ nav .nav-list ul li a {
     font-weight: 500;
 }
 
+/*responsive style for tablet max-800px*/
+@media screen and (min-width:526px) and (max-width:800px) {
+
+
+    nav {
+        height: fit-content;
+    }
+
+    .row,
+    nav,
+    nav .nav-list ul,
+    .nav-click,
+    .follo-us-on,
+    .nav-list ul,
+    .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+
+    }
+
+
+    .types-of-games,
+    .carts,
+    #first-row,
+    #sec-row,
+    nav .logo,
+    .nav-list,
+    .col,
+    nav .nav-list ul,
+    nav .nav-list ul li {
+        margin-top: 10px;
+
+        margin-left: 10px;
+        margin-left: none;
+        margin-right: 10px;
+
+
+    }
+
+    .carts,
+    #first-row,
+    #sec-row,
+    .game-types {
+        width: 80%;
+        margin: 0%;
+        padding: 0 10px;
+
+    }
+
+    #we-are-gammer,
+    .types-of-games,
+    .carts,
+    #first-row,
+    #sec-row,
+    nav .nav-list,
+    .nav-list ul {
+
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .last-page {
+        height: fit-content;
+    }
+
+
+
+    .footer-link,
+    .footer-shortcut {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 5px;
+
+
+    }
+
+
+
+    .footer-extra-shortcut {
+        width: 60%;
+        margin: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .carts,
+    #first-row,
+    #sec-row {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .types-of-games {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .game-types {
+        width: 80%;
+        margin: auto;
+    }
+
+    .playtext {
+
+        width: 90%;
+        margin: auto;
+
+    }
+
+
+    #big-img {
+
+        width: fit-content;
+        height: 50%;
+        margin-left: 3rem;
+
+
+    }
+
+    #gammer-descript {
+        text-align: left;
+        width: 90%;
+        margin-bottom: 0;
+        margin-left: 2rem;
+        color: #534C64;
+    }
+
+    .online-games .row {
+        flex: none;
+    }
+
+
+
+    .banner .row {
+
+
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+
+    .gammer .row .col img {
+
+        width: 100%;
+        height: 30rem;
+
+
+    }
+
+    .banner .row .col img {
+        width: 90%;
+        justify-content: center;
+
+    }
+
+    .gammer {
+        height: fit-content;
+    }
+
+    .banner {
+        height: fit-content;
+    }
+
+    .onlinerow {
+        display: grid;
+    }
+
+    .layer h3 {
+        margin-left: 39%;
+
+
+    }
+
+}
+
 
 
 /*responsive style for phone*/
@@ -528,7 +718,7 @@ nav .nav-list ul li a {
 
     }
 
-
+    #we-are-gammer,
     .types-of-games,
     .carts,
     #first-row,
@@ -538,6 +728,7 @@ nav .nav-list ul li a {
 
         align-items: center;
         justify-content: center;
+        text-align: center;
 
     }
 
@@ -611,7 +802,7 @@ nav .nav-list ul li a {
         text-align: left;
         width: 90%;
         margin-bottom: 0;
-        /* margin-left: 50%; */
+        margin-left: 2rem;
         color: #534C64;
     }
 
@@ -636,6 +827,12 @@ nav .nav-list ul li a {
     .banner .row .col img {
         width: 70%;
         justify-content: center;
+
+    }
+
+    .layer h3 {
+        margin-left: 29%;
+
 
     }
 
