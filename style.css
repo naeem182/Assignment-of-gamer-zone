@@ -589,4 +589,62 @@ nav .nav-list ul li a {
         width: 80%;
         margin: auto;
     }
+
+    .playtext {
+
+        width: 90%;
+        margin: auto;
+
+    }
+
+
+    #big-img {
+
+        width: fit-content;
+        height: 50%;
+        margin-left: 3rem;
+
+
+    }
+
+    #gammer-descript {
+        text-align: left;
+        width: 90%;
+        margin-bottom: 0;
+        /* margin-left: 50%; */
+        color: #534C64;
+    }
+
+
+
+
+    .banner .row {
+
+
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+
+    .gammer .row .col img {
+
+        width: 90%;
+        height: 90%;
+
+    }
+
+    .banner .row .col img {
+        width: 70%;
+        justify-content: center;
+
+    }
+
+    .gammer {
+        height: fit-content;
+    }
+
+    .banner {
+        height: fit-content;
+    }
+
 }
