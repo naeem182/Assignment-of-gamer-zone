@@ -656,10 +656,11 @@ nav .nav-list ul li a {
 
     .onlinerow {
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .layer h3 {
-        margin-left: 39%;
+        margin-left: 25%;
 
 
     }
