@@ -253,6 +253,7 @@ nav .nav-list ul li a {
     height: fit-content;
     margin: 2px;
     opacity: 1;
+    position: relative;
 }
 
 .onlinecol:hover {
@@ -263,6 +264,7 @@ nav .nav-list ul li a {
 
 .onlinecol img {
     height: 400px;
+    position: relative;
 
 }
 
@@ -275,6 +277,37 @@ nav .nav-list ul li a {
     height: 60px;
     text-align: left;
 }
+
+
+.layer i,
+.layer h3 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    font-size: 2rem;
+
+
+}
+
+
+.layer h3 {
+    margin-left: 6rem;
+
+
+}
+
+
+.onlinecol .layer i,
+.onlinecol .layer h3 {
+    position: absolute;
+    bottom: 16rem;
+
+    text-align: center;
+    align-items: center;
+
+    transform: translate((-50%, -50%));
+
+
+}
+
 
 /*play instantly design*/
 .play-instantly {
@@ -295,14 +328,12 @@ nav .nav-list ul li a {
 
 }
 
-.col {
-    width: 50%;
-}
+
 
 #big-img {
 
-    width: 39rem;
-    height: 40rem;
+    width: 30rem;
+    height: 35rem;
     margin-left: 3rem;
 
 
@@ -340,6 +371,7 @@ nav .nav-list ul li a {
     display: flex;
 
     padding: 3px;
+    margin: 3px;
 
 
     align-items: center;
@@ -368,7 +400,7 @@ nav .nav-list ul li a {
 #sec-row {
     display: flex;
     justify-content: space-around;
-    margin: auto 5rem;
+    margin: 3px 5rem;
 }
 
 .types-t {
@@ -384,6 +416,64 @@ nav .nav-list ul li a {
 .carts h4 {
     display: inline;
 }
+
+/*lat page footer*/
+.last-page {
+    height: 50vh;
+    background: #0B0223;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.last-page .logo {
+    display: flex;
+
+
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-shortcut {
+    display: flex;
+    color: #FFF;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem;
+
+
+}
+
+.footer-link i {
+    color: white;
+    font-size: 2rem;
+
+}
+
+.footer-extra-shortcut {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.fotter-describ--extra {
+    font-size: .9rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+
 
 /*responsive style for phone*/
 @media screen and (max-width:425px) {
